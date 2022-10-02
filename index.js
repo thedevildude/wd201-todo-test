@@ -29,7 +29,10 @@ const todoList = () => {
   
     return { all, add, markAsComplete, overdue, dueToday, dueLater, toDisplayableList };
   }
-  
+
+  module.exports = todoList;
+
+/*   
   // ####################################### #
   // DO NOT CHANGE ANYTHING BELOW THIS LINE. #
   // ####################################### #
@@ -73,4 +76,4 @@ const todoList = () => {
   let itemsDueLater = todos.dueLater()
   let formattedItemsDueLater = todos.toDisplayableList(itemsDueLater)
   console.log(formattedItemsDueLater)
-  console.log("\n\n")
+  console.log("\n\n") */
