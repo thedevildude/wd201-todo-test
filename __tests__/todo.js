@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const todoList = require("../index.js");
+const todoList = require("../todo.js");
 
 const { add, all, markAsComplete, overdue, dueToday, dueLater } = todoList();
 
